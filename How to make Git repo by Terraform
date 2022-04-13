@@ -1,0 +1,10 @@
+provider "github" {
+    token = "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"
+}
+  resource "github_repository" "My-first-Repo" {
+   name ="My-first-repo"
+  description = "My first automation"
+  visibility = "public"
+   auto_init = true
+   
+  }
