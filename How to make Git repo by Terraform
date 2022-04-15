@@ -1,3 +1,4 @@
+#Repositries.tf
 provider "github" {
     token = "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"
 }
@@ -8,3 +9,19 @@ provider "github" {
    auto_init = true
    
   }
+
+
+#provider.tf
+
+provider "github" {
+    token = "${var.token}"
+}
+
+
+#Terraform.tfvars
+
+token="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"
+
+#Variable.tf
+variable token  {  
+}
