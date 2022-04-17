@@ -1,3 +1,5 @@
+#we can create git repository by below codes.it have total four file to create repository.
+
 #Repositries.tf
 provider "github" {
     token = "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"
