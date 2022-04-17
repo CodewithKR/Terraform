@@ -27,3 +27,8 @@ token="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"
 #Variable.tf
 variable token  {  
 }
+
+#Output.tf
+output "terraform-first-repo-url"{
+value = github_repository.My-first-Repo.html_url(resource_details.name.html_URL)
+}
